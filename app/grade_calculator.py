@@ -82,3 +82,9 @@ class GradeCalculator:
             return 'D'
         else:
             return 'F'
+        
+    @staticmethod    
+    def minimum_average_points()-> float:
+        return 0.91
+    
+    
